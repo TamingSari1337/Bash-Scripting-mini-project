@@ -1,5 +1,6 @@
 #!/bin/bash
-for i in Taming Ryden Genji Cat Chyper Alien 
+
+for names in $(cat names.txt)  
 do
-   echo "Welcome $i comel"
+   echo "Welcome $names comel"
 done
